@@ -241,7 +241,26 @@
               </div>
         </footer>
 
-        
+        <!-- script -->
+        <script>
+            // select DOM items
+            const menuBtn = document.querySelector('.menu-btn');
+            const menu = document.querySelector('.main-menu');
+
+            let showMenu = false;
+            menuBtn.addEventListener('click', toggleMenu);
+
+            function toggleMenu(){
+                if(!showMenu){
+                    menu.classList.add('show');
+                    showMenu = true;
+                }
+                else{
+                    menu.classList.remove('show')
+                    showMenu = false;
+                }
+            }
+        </script>
 
     
 </body>
