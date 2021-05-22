@@ -1,2 +1,2 @@
 # Microsoft-homepage-clone
- responsive homepage using CSS grid, flexbox and media queries
+* responsive homepage using CSS grid, flexbox and media queries
